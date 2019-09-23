@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('/fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Myriad Pro Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Light'), url('/fonts/MyriadPro-Light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Myriad Pro Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Semibold'), url('/fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+
+
+
+
+@font-face {
+    font-family: 'Myriad Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Bold'), url('/fonts/MYRIADPRO-BOLD.woff') format('woff');
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+body>main>section.hero.is-info.is-large>div {
+    background-image: url("img/hero-main.jpg");
+}
+
+html,
+body {
+    height: auto;
+    background-image: linear-gradient(to bottom, #4aaaff, #499efc, #4d92f8, #5685f3, #6177ec);
+    color: #ffffff;
+    font-family: Myriad Pro Light,
+        sans-serif;
+
+}
+
+body p {
+    line-height: 1.5;
+}
+
+.title,
+.subtitle {
+    font-family: Poppins, sans-serif;
+    line-height: 2;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.subtitle {
+    font-weight: 400;
+}
+
+header {
+    padding: 1%;
+}
+
+.breadcrumb {
+    padding: 1%;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.logo {
+    background: url('/img/logo.png') no-repeat center center;
+    background-size: cover;
+    width: 220px;
+}
+
+
+.revit {
+    background-size: cover;
+
+}
+
+.rsv {
+    background-size: cover;
+    margin-left: 1%;
+}
+
+.awards {
+    margin-top: 3%;
+}
+
+.googlemaps {
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 2px 2px #ffffff;
+
+}
+
+
+.contactlink {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.is-8 p {
+    width: 60%;
+}
+
+
+.search {
+    margin-top: 8px;
+}
+
+.has-bg-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/hero-main.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.has-bg-img-admission {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/admission.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.has-bg-img-kontakt {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/kontakt.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.has-bg-img-visalle {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/visalle.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.title,
+.subtitle {
+    color: #ffffff;
+}
+
+.is-white {
+    color: #ffffff;
+}
+
+.navbar-link.is-active,
+a.navbar-item.is-active {
+    color: #ffffff;
+    border-bottom: 2px solid white;
+}
+
+.grid-icons {
+    width: 100%;
+    font-size: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.footer-icons {
+    width: 100%;
+    font-size: 2rem;
+    justify-content: left;
+    margin-top: 2%;
+}
+
+.column-cards {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+.footer-font-sizing {
+    font-size: 1rem;
+    font-family: Myriad Pro Light, sans-serif;
+    margin-left: 0.5rem;
+}
+
+.color-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    box-shadow: 0 2px 6px #000000;
+    border-radius: 10px;
+    height: 50vh;
+}
+
+.add-margin {
+    margin-top: 4%;
+}
+
+.footer {
+    background: #575f80;
+}
+
+.column p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.fa-graduation-cap,
+.fa-lightbulb,
+.fa-cogs {
+    -webkit-text-stroke: 2px #ffffff;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.fa-phone,
+.fa-envelope,
+.fa-home,
+.fa-fax {
+    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-fill-color: transparent;
+}
+
+.width-adjust {
+    width: 38%;
+    line-height: 1.25;
+}
+
+.button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+.button:hover {
+    background-color: #ffff;
+}
+
+.dropdown-content {
+    background-color: transparent;
+    color: #fff;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.height-adjust {
+    height: 80vh;
+}
+
+.menu-label {
+    color: #ffff;
+}
+
+.menu-list a {
+    color: #fff;
+}
+
+.menu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    box-shadow: 0 2px 6px #000000;
+    border-radius: 10px;
+}
+
+.is-primary-item {
+    font-family: Myriad Pro Regular, sans-serif;
+    background-color: #3273dc;
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .menu {
+        display: none;
+    }
+}
